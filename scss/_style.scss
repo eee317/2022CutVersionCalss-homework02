@@ -1,0 +1,93 @@
+.s-header-img {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true');
+  background-size: cover;
+  background-position: center;
+}
+.text-white {
+  color: #fff;
+}
+.m-r-16 {
+  margin-right: 16px;
+}
+.m-b-12 {
+  margin-bottom: 12px;
+}
+.m-b-16 {
+  margin-bottom: 16px;
+}
+.m-b-32 {
+  margin-bottom: 32px;
+}
+.m-b-120 {
+  margin-bottom: 120px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-40 {
+  margin-top: 40px;
+}
+.m-t-56 {
+  margin-top: 56px
+}
+.m-t-68 {
+  margin-top: 68px;
+}
+.p-b-160 {
+  padding-bottom: 160px;
+}
+.lh-1_5 {
+  line-height: 1.5;
+}
+.lh-42px {
+  line-height: 42px;
+}
+.lh-84px {
+  line-height: 84px;
+}
+.lh-106px {
+  line-height: 106px;
+}
+.text-center {
+  text-align: center;
+}
+.about {
+  .red-circular {
+    margin-top: 28px;
+    &::before {
+      content: '';
+      display: inline-block;
+      background-color: $red;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      margin-right: 16px;
+      vertical-align: -2px;
+    }
+  }
+}
+.border {
+  padding-bottom: 24px;
+  border-bottom: 1px solid $black;
+  width: 384px;
+  display:inline-block;
+}
+.myBrand {
+  background-color: $black;
+}
+.font-weight-medium {
+  font-weight: medium;
+}
+.works {
+  li {
+    margin-bottom: 24px;
+  }
+}
+footer {
+  background-color: $black;
+  padding: 83px 0px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}

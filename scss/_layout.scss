@@ -1,0 +1,19 @@
+.l-contener {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.l-flex-cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.l-flex-warp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.l-banner {
+  padding: 303px 0px;
+}

@@ -1,0 +1,19 @@
+@mixin textSetting ($size) {
+  font-size: $size;
+  font-style: italic;
+}
+h1 {
+  @include textSetting(80px);
+  font-weight: 900;
+}
+h2 {
+  @include textSetting(64px);
+  font-weight: medium;
+}
+h3 {
+  @include textSetting(24px);
+  font-weight: bold;
+}
+img {
+  vertical-align: middle;
+}
